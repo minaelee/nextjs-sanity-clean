@@ -61,6 +61,7 @@ export default function ProjectSlugRoute(
             height={231}
             width={367}
             alt=""
+            quality={100}
           />
         ) : (
           <div className="post__cover--none" />
