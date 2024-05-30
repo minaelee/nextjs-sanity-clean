@@ -32,8 +32,8 @@ const iframeOptions = {
 
 export default defineConfig({
   basePath: '/studio',
-  name: 'project-name',
-  title: 'Project Name',
+  name: 'minae-nextjs-clean',
+  title: 'Minae - Sanity Demo with NextJS Clean Template',
   projectId,
   dataset,
   //edit schemas in './src/schemas'
