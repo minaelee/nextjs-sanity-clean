@@ -4,9 +4,7 @@ export default function Container({ children }: { children: React.ReactNode }) {
   return (
     <div className="container">
       <header className="header">
-        <Link className="header__title" href="/">
-          Next.js + Sanity
-        </Link>
+          A test site using the <Link href="https://www.sanity.io/templates/nextjs-sanity-clean">Clean Next.js + Sanity template</Link>
       </header>
       <main>{children}</main>
       <footer className="footer">
