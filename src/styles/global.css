@@ -444,3 +444,7 @@ main {
     max-height: 231px;
   }
 }
+
+div.pt-editable[role="textbox"] > .pt-block {
+  max-width: 100%;
+}
